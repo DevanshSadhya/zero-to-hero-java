@@ -12,6 +12,7 @@
 ## 📌 Why This Repository?
 
 Most resources are either:
+<br>
 - ❌ Too scattered  
 - ❌ Too advanced  
 - ❌ Only DSA or only Development  
