@@ -70,7 +70,8 @@ Explanation:-
 
 * System.out.println() : Prints output to console
 <br>
-## 5. Basic Java Syntax Rules
+
+##  5. Basic Java Syntax Rules
 
 * Java is case-sensitive
 
