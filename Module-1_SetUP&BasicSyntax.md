@@ -13,3 +13,15 @@ Set up the Java development environment and understand the basic structure and s
 
 ### Step 2: Verify Installation
 Open terminal / command prompt and run:
+```
+java -version
+javac -version
+```
+If the version is displayed, Java is installed correctly.
+<BR>
+## 2. Environment Variables (Windows)
+
+Set the following variables:
+
+- JAVA_HOME  
+  Example:
