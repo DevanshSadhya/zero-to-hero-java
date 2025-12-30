@@ -1,0 +1,30 @@
+// To find Armstrong Number between two given number.
+import java.util.Scanner;
+public class Solutions_09 { 
+    public static void main(String[] args) throws Exception {
+        Scanner input = new Scanner(System.in);
+        // Getting the range from user
+        System.out.print("Enter the lower bound: ");
+        int lower = input.nextInt();
+        System.out.print("Enter the upper bound: ");
+        int upper = input.nextInt();
+
+        System.out.println("Armstrong numbers between " + lower + " and " + upper + " are:");
+
+        for (int num = lower; num <= upper; num++) {
+            int originalNum = num;
+            int sum = 0;
+            int digits = String.valueOf(num).length();
+
+            while (originalNum != 0) {
+                int digit = originalNum % 10;
+                sum += Math.pow(digit, digits);
+                originalNum /= 10;
+            }
+
+            if (sum == num) {
+                System.out.println(num);
+            }
+        }
+    }
+}
