@@ -1,5 +1,5 @@
 # Problem Statement-1
-<b>Using inheritance, one class can acquire the properties of others. Consider the following Animal class:Using inheritance, one class can acquire the properties of others. Consider the following Animal class:</b>
+<b>Using inheritance, one class can acquire the properties of others. Consider the following Animal class:</b>
 ```java
 class Animal{
     void walk(){
